@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+	<h1>Driving simulator online demonstration</h1>
+	
+	<div class="panel panel-warning">
+	<div class="panel-heading">
+	<h3 class="panel-title">Keyboard controls</h3>
+	</div>
+	<div class="panel-body">
+	Please note that the original instructions are written for
+	steering wheel and pedal setup. Please substitute the
+	controls as follows:
+	<dl class="dl-horizontal">
+		<dt>Throttle</dt><dd>Arrow up</dd>
+		<dt>Brake</dt><dd>Arrow down</dd>
+		<dt>"Red button"</dt><dd>Spacebar</dd>
+		<dt>"Left lever"</dt><dd>Ctrl</dd>
+	</dl>
+	</div>
+	</div>
+	<h2>Experiment and scenarios</h2>
+	<p>Select a demonstration below. Use browser back-button to return
+	to this page. Please note that in the experiment Finnish instructions
+	were used, and some of the English instructions don't perfectly the Finnish
+	ones used.
+	<p>The experiment is known to run on recent Chromium, Chrome and Firefox browsers.
+	<ul class="nav nav-pills nav-stacked" style="font-size: x-large">
+		<li><a href="./webtrajsim/index.html?disableDefaultLogger=true">Full experiment</a></li>
+		<li>Experiment scenarios<ul class="nav nav-pills nav-stacked">
+		<li><a href="./webtrajsim/index.html?disableDefaultLogger=true&experiment=singleScenario&singleScenario=followInTraffic">Unoccluded car following task</a></li>
+		<li><a href="./webtrajsim/index.html?disableDefaultLogger=true&experiment=singleScenario&singleScenario=blindFollowInTraffic">Occluded car following task</a></li>
+		</ul></li>
+		<li>Tutorial scenarios<ul class="nav nav-pills nav-stacked">
+		<li><a href="./webtrajsim/index.html?disableDefaultLogger=true&experiment=singleScenario&singleScenario=closeTheGap">Close the gap</a></li>
+		<li><a href="./webtrajsim/index.html?disableDefaultLogger=true&experiment=singleScenario&singleScenario=throttleAndBrake">Throttle and brake</a></li>
+		<li><a href="./webtrajsim/index.html?disableDefaultLogger=true&experiment=singleScenario&singleScenario=speedControl">Speed control</a></li>
+		<li><a href="./webtrajsim/index.html?disableDefaultLogger=true&experiment=singleScenario&singleScenario=blindSpeedControl">Blind speed control</a></li>
+		</ul></li>
+	</ul>
+	</div>
+</body>
+</html>
